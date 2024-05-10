@@ -65,6 +65,16 @@
 }
 
 
+/* media query */
+@media screen and (max-width: 480px) {
+    #image{
+        filter: blur(3px);
+    }
+    .name{
+        font-size: 30px;
+    }
+}
+
 
 /* social media icon */
 .social-buttons {
